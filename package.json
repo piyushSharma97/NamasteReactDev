@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Learning react from NamasteReact",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushSharma97/NamasteReactDev.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "piyush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushSharma97/NamasteReactDev/issues"
+  },
+  "homepage": "https://github.com/piyushSharma97/NamasteReactDev#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
