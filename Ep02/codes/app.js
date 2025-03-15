@@ -26,7 +26,7 @@ import ReactDOM from "react-dom/client";
 
 const child1 = React.createElement("div", { id: "child1" }, [
   React.createElement("h1", {}, "This is Namaste React 🚀"),
-  React.createElement("h2", {}, "by Akshay Saini"),
+  React.createElement("h2", {}, "by Akshay Saini 3"),
 ]);
 
 const child2 = React.createElement("div", { id: "child2" }, [
@@ -41,7 +41,6 @@ const parent = React.createElement(
   },
   [child1, child2]
 );
-
 // console.log(parent);  // object
 
 // create root using createRoot
