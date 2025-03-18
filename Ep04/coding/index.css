@@ -36,7 +36,17 @@
     flex-wrap: wrap;
     justify-content:center;
 }
-
+.search {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #c9c8c8;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
 .res-card{
     width: 200px;
     border-radius: 5px;
@@ -48,9 +58,11 @@
 .res-card:hover{
     border:1px solid black
 }
-.res-card > img{
+.res-card > .restaurant-logo{
     width: 100%;
-    border-radius: 10px;
+    height: 45%;
+    margin: 0px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .res-card > span{
