@@ -17,7 +17,7 @@ const Body = () => {
   // Function to update the restaurant list based on the rating.
   const filterRestaurantList = () => {  
     const filteredRestaurant = restaurants.filter(
-        (res) => res.data.avgRating > 4.3
+        (res) => res.data.avgRating > 4.1
       );
       setRestaurants(filteredRestaurant);
   }
