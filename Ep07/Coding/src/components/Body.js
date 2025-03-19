@@ -44,20 +44,17 @@ console.log(useState())
       <Shimmer />
     ) : (
         <Fragment>
-            <div className="search-container">
-               <input
+            <div className="body">
+            <div className="search-box">
+              <input
                 type="text"
-                className="search-input"
-                placeholder="Search a restaurant you want..."
                 value={searchRestaurant}
                 onChange={(e) => setSearchRestaurant(e.target.value)}
-                ></input>
-                  <button
-                    className="search-btn"
-                    onClick={handleSearch}
-                    >
-                    Search
-                  </button>
+                placeholder="search a restaurant you want..."
+              />
+              <button className="search" onClick={handleSearch}>
+                Search
+              </button>
             </div>
             <div className="filter">
                 <button
@@ -67,13 +64,15 @@ console.log(useState())
                 Top Rated Restaurants
                 </button>
             </div>
-            <div className="restaurant-list">
-            {filteredRestaurants.length !== 0 ? (
-            filteredRestaurants.map((restaurant) =>  (
-            <RestaurantCard key={restaurant.info.id} {...restaurant.info} />
-          ))): (
-            <h2>Sorry, we couldn't find any restaurant for "{restaurantName}"</h2>
-          )}
+            <div className="restaurant-container">
+        {filteredRestaurants.length !== 0 ? (
+          filteredRestaurants.map((restaurant) => (
+            <RestaurantCard key={restaurant?.info?.id} {...restaurant?.info} />
+          ))
+        ) : (
+          <h2>Sorry, we couldn't find any restaurant for "{restaurantName}"</h2>
+        )}
+      </div>
             </div>
         </Fragment>
     )
