@@ -27,10 +27,10 @@ export const Github_Repository_Name = "Namaste-React";
 export const Github_API_User = "https://api.github.com/users/";
 
 // Social Media Links
-export const Linkedin_Link = "https://www.linkedin.com/in/chetannada/";
-export const Twitter_Link = "https://twitter.com/ChetanNada";
-export const Github_Link = "https://github.com/chetannada";
-export const Email_Link = "mailto:call2chetannada@gmail.com";
+export const Linkedin_Link = "https://www.linkedin.com/in/piyush-sharma-developer/";
+export const Twitter_Link = "https://twitter.com/piyush0540";
+export const Github_Link = "https://github.com/piyushSharma97";
+export const Email_Link = "mailto:sharma.piyush70141@gmail.com";
 
 // Github Authorization Token
 export const options = {
@@ -46,6 +46,10 @@ export const MENU_ITEM_TYPE_KEY =
 export const RESTAURANT_TYPE_KEY =
   "type.googleapis.com/swiggy.presentation.food.v2.Restaurant";
 
+
+  // Github - username and repository name
+export const GITHUB_USERNAME = "piyushSharma97";
+export const GITHUB_REPOSITORY_NAME = "NamasteReactDev";
   // Github API for User
 export const GITHUB_USER_API = "https://api.github.com/users/";
 
